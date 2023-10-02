@@ -1,0 +1,145 @@
+---
+title: "Designing AI for Libraries"
+subtitle: "Long Island Library Resources Council<br/>32nd Conference on Libraries and the Future"
+author: "Nicole Coleman"
+institute: "Stanford Libraries and Humanities+Design"
+date: "October 6, 2023"
+format: revealjs
+title-slide-attributes:
+    data-background-image: "images/mimi_onuoha/Installation.png"
+    data-background-color: "black"
+    data-background-size: "100%"
+    data-background-opacity: "50%"
+---
+
+## What is AI? {background-color="rgb(63,29,14)" .center}
+
+
+
+
+## {background-color="black" background-image="images/stanford_libraries/GoosCalifornia1666.jpg" background-size="110%"}
+
+::: {style="margin-top: 680px; margin-left: 0px; font-size: 12px; color: white;"}
+Paskaerte Van Nova Granada en t'Eylandt California, Pieter Goos, 1666.</br>
+David Rumsey Map Center, Stanford Libraries
+:::
+::: {.notes}
+I, too, come from an island. 
+:::
+
+
+## {background-color="rgb(63,29,14)" background-image="images/stanford_libraries/SiliconValley_13182000.jpg" background-size="600px"}
+
+
+::: {style="margin-top: 680px; margin-left: 0px; font-size: 12px; color: white; text-align:right;"}
+Silicon Valley (1986), Kirby Scudder.</br>
+David Rumsey Map Center, Stanford Libraries
+:::
+
+
+::: {.notes}
+Specifically, I come from a Silicon Valley tech incubator, Stanford. Stanford is its own census-designated place, though often thought of as Palo Alto. For a history of Palo Alto and the influence of the tech industry, I highly recommend Malcolm Harris's recent book, Palo Alto.
+:::
+
+
+## AI is Engineering {background-color="rgb(63,29,14)"}
+
+::: {layout-ncol=2}
+
+![Stanford Cart, 1978](https://exhibits.stanford.edu/uploads/spotlight/attachment/file/465/Cart.road.1978.2.jpg)
+
+![Stanford DARPA Challenge, 2007](https://stacks.stanford.edu/image/iiif/wn080vv3550/wn080vv3550/full/full/0/default.jpg)
+
+:::
+
+::: {.notes}
+Specifically, I come from a Silicon Valley tech incubator, Stanford. Stanford is its own census-designated place, though often thought of as Palo Alto. For a history of Palo Alto and the influence of the tech industry, I highly recommend Malcolm Harris's recent book, Palo Alto.
+:::
+
+## The real world presents challenges {background-color="black" visibility="hidden"}
+
+<!--![](https://www.teslarati.com/wp-content/uploads/2023/08/cruise-wet-cement-e1692203896571.jpeg)-->
+![](images/misc/Cruise_stuck_in_concrete.png)
+
+## The real world is messy {background-color="rgb(63,29,14)"}
+
+![Self-driving car stuck in cement in San Francisco, August 2023](https://www.teslarati.com/wp-content/uploads/2023/08/cruise-wet-cement-e1692203896571.jpeg)
+
+
+
+::: {.notes}
+I see tremendous opportunities for this technology to support the work of librarians and to improve our services to patrons. But it requires us to engage with the technology, understand its limitations, its capabilities, and how we can put it to work to benefit us.
+:::
+
+## AI is prediction based on examples
+
+
+::: {.notes}
+As a result, it is simply a reflection of the information it has been trained on. 
+:::
+
+## Why does AI matter to libraries?
+
+![](images/misc/ChatGPT_to_ban_books_iowa.png)
+
+## Curation and categorization are central to AI {.center}
+
+
+## {background-color="black" visibility="hidden"}
+
+```{ojs}
+//| label: ai_critics_enthusiasts
+//| fig-cap: "AI Critics and Enthusiasts"
+//| code-fold: true
+
+
+  Plot.plot({
+  inset: 20,
+  height: 1280,
+  width: 2000,
+  marks: [
+    Plot.image(
+      ai_outspoken,
+      Plot.dodgeY({
+        x: "Occupation",
+        r: 60, // clip to a circle
+        preserveAspectRatio: "xMidYMin slice", // try not to clip heads
+        src: "Portrait URL",
+        title: "Name"
+      })
+    )
+  ]
+  
+})
+
+
+```
+```{ojs}
+
+ai_outspoken = FileAttachment("ai_critics_enthusiasts.csv").csv()
+
+```
+
+## Who builds the technology matters 
+
+## {background-iframe="https://www.youtube.com/embed/0ZpXhJG6Ff4?si=KU7zDbJbKRRPG1GG&autoplay=1&controls=0&start=6"}
+
+
+
+
+## Notes {.smaller .scrollable}
+
+Refik Anadol, "[Archive Dreaming](codaworx.com/project/archive-dreaming-salt-research)"
+"Archive Dreaming" trained on 1.7 million document images from [SALT archive](https://archives.saltresearch.org/) is a project to "reframe memory, history, and culture in museum perception for the 21st century through the lens of machine intelligence."
+
+
+Mimi Ọnụọha, Everything That Didn’t Fit, Bitforms Gallery, 2022
+"Everything That Didn’t Fit is an ode to absence, and a call to undo and expand the categories of value that inform modern sociotechnical systems."
+
+Mimi Ọnụọha, The Library of Missing Datasets, 2016
+
+
+California as an island
+
+Silicon Valley. Copyright 1986. Pacific Ventures. Artist Kirby Scudder. 
+

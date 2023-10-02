@@ -1,0 +1,29 @@
+Author	Scudder, Kirby
+Date	1986
+Short Title	Silicon Valley
+Publisher	Pacific Ventures
+Type	Separate Map
+Obj Height cm	88
+Obj Width cm	59
+Scale 1	None shown
+Note	Color pictorial map by Kirby Scudder, shows Silicon Valley occupying practically all the real estate from the Pacific Ocean to the Atlantic Ocean. The expanse from the west to the east coast of the US is depicted in bands with the Pacific Ocean in the foreground, then I-280 then US 101, then the San Francisco Bay and in the far distance the Atlantic Ocean. In the foreground bands there are depicted many high tech companies, advertising and communication companies, business and distributors of digital contents, along with Stanford, the San Francisco Bay, Cal Berkeley, then at left is Lake Tahoe and the Rockies, and at right Los Angeles.
+State/Province	California
+Region	Silicon Valley (Calif.)
+Subject	Pictorial map
+Subject	Advertising
+Subject	Satirical
+Subject	Silicon Valley
+Full Title	Silicon Valley. Copyright 1986. Pacific Ventures. Artist Kirby Scudder.
+List No	13182.000
+Publication Author	Scudder, Kirby
+Pub Date	1986
+Pub Title	Silicon Valley. Copyright 1986. Pacific Ventures. Artist Kirby Scudder.
+Pub Note	See note field above.
+Pub List No	13182.000
+Pub Type	Separate Map
+Pub Height cm	88
+Pub Width cm	59
+Image No	13182000.jp2
+Download 1	<a href=https://www.davidrumsey.com/rumsey/download.pl?image=/179/13182000.jp2 target=_blank>Full Image Download in JP2 Format</a>
+Download 2	<a href=https://www.extensis.com/support/geoviewer-9 target=_blank >GeoViewer for JP2 and SID files</a>
+Authors	Scudder, Kirby
