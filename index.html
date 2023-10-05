@@ -30,71 +30,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="20231006_files/libs/revealjs/dist/theme/quarto.css">
   <link href="20231006_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -385,8 +320,6 @@
       margin-right: 0; 
     }
   </style>
-  <script type="module" src="20231006_files/libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-  <link href="20231006_files/libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -413,7 +346,7 @@ Nicole Coleman
 <h2>Mimi Ọnụọha</h2>
 <p><br> “Machine Sees More Than It Says” consists of clips of footage gathered from archival videos made between the 1950s and the 1980s. Stitched together, they form a machine’s imagining of itself and the courses of development that formed it, hinting at processes of resource extraction, transport, technical advancement, interfaces, and labor.</p>
 <aside class="notes">
-<p>The video collage on my title screen is an artwork by Mimi Ọnụọha titled “Machine Sees More than it says”. Mimi Ọnụọha is a Nigerian American artist (b. 1989, Italy) who “creates work that questions and exposes the contradictory logics of technological progress.” I chose her work to open this talk because</p>
+<p>The video collage on my title screen is an artwork by Mimi Ọnụọha titled “Machine Sees More than it says”. Mimi Ọnụọha is a Nigerian American artist (b. 1989, Italy) who “creates work that questions and exposes the contradictory logics of technological progress.” I chose her work to open this talk because while Onuoha’s critique is focused on the way technologies and in particular corporate technology and techno-solutionism, those images from the 1950s to 1980s are reminiscent of an era of library technology that is still in use today. My colleagues at Stanford Libraries have often complained that “we’re still using technology from the 1990s”.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -429,7 +362,9 @@ Nicole Coleman
 <section id="section" class="slide level2" data-background-color="black" data-background-image="images/mimi_onuoha/Installation.png">
 <h2></h2>
 <aside class="notes">
-<p>This image has a lot to tell us about AI. This is photograph from a show by Mimi Onuoha at Bitforms Gallery last year that was titled “Everything That Didn’t Fit.” She describes it as an ode to absence, and a call to undo and expand the categories of value that inform modern sociotechnical systems.” The file cabinet to the left side is her piece ‘The Library of missing data sets.’ It is a project she started in 2016 to draw attention to data collection and curation. Or rather, to what is not collected. AI systems are reliant on data, so what is collected and what is left out makes all the difference. I hope this resonates with you as it does with me. In libraries we have a responsibility to collection and curation in service to the community of users. This is something, I will argue today, that AI is lacking and that we can bring to the design of applications of AI. On the right is another work of Onuoha’s titled “Natural: or Where We are Allowed to Be”(2021). As described by the artist, “a Black woman wanders through a data center that carries her own information and asserts answers to the question of what her relationship to the place should be.” The work is about actively engaging the alienation that results from the technocratic experience of information access.</p>
+<p>This is photograph from a recent show by Mimi Onuoha at Bitforms Gallery in New York that was titled “Everything That Didn’t Fit.” She describes it as an “ode to absence, and a call to undo and expand the categories of value that inform modern sociotechnical systems.” The file cabinet to the left side is ‘The Library of missing data sets.’ It is a project she started in 2016 to draw attention to data collection and curation. Or rather, to what is not collected. AI systems are reliant on data, so what is collected and what is left out makes all the difference. I hope this resonates with you as it does with me. In libraries we have a responsibility to collection and curation in service to the community of users.</p>
+<p>This is something, I will argue today, that AI is lacking and that we can bring to the design of applications of AI.</p>
+<p>On the right is another work of Onuoha’s titled “Natural: or Where We are Allowed to Be”(2021). As described by the artist, “My series became a way to make sense of all the datasets that were coming out about Black suffering in the summer of 2020 by questioning who actually owns those datasets and is able to define the terms of how they’re used. By placing my friend in the server room, where almost certainly her and my data is stored, it’s a way of thinking about that question of ‘Where are you meant to be?’ and who has access to those places.” The work is about actively engaging the alienation that results from the technocratic experience of information access. That active engagement that Onuoha seeks to inspire also part of the message I hope to share with you today.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -446,16 +381,16 @@ Nicole Coleman
 <h2>Core concerns about AI in society</h2>
 <div>
 <ol type="1">
-<li class="fragment">Ethical and social bias</li>
-<li class="fragment">Job displacement and economic inequality</li>
-<li class="fragment">Ghost Workers</li>
-<li class="fragment">Data Privacy and Surveillance</li>
+<li class="fragment">Optimization at the cost of ethics</li>
+<li class="fragment">Racial and Gender Bias, Privacy and Surveillance</li>
+<li class="fragment">Ghost Work, Job Displacement and Income Inequality</li>
+<li class="fragment">Transparency and Accountability</li>
 <li class="fragment">Safety and Malicious Use</li>
-<li class="fragment">Lack of Transparency and Accountability</li>
 </ol>
 </div>
 <aside class="notes">
-<p>These are some of the most pressing issues that need to be addressed as AI is let loose in our society. Excellent work has been done to address these issues by strong and clear-headed individuals within the field, and by social scientists and humanists outside the field. I have included a list of references at the end of this talk. For the talk today, I will focus on what we can do within libraries to make use of this technology and use our expertise to help direct its use.</p>
+<p>Underlying AI is a philosophical agenda - to understand intelligence. It has its roots in fundamental questions about existence. What distinguishes human from machine? Do we have free will or are we essentially very elaborate automata? But what we experience and live with as applied AI today emerged from an engineering mentality inflected with the ideas of eugenics. As a result, applied AI today, has confronted our society with really big problems. [tab through them]</p>
+<p>Excellent work continues to be done to expose these issues. I have included a list of references at the end of this talk for those who are interested. The question for today is what can we do within libraries to make use of this technology in ways that not only align with but also advance our values.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -468,16 +403,13 @@ Nicole Coleman
           display:block!important;
       }</style></aside>
 </section>
-<section id="designing-ai-for-libraries" class="slide level2 center" data-background-color="darkred">
-<h2>Designing AI for Libraries</h2>
-</section>
 <section id="section-1" class="slide level2" data-background-color="black" data-background-image="images/stanford_libraries/GoosCalifornia1666.jpg" data-background-size="110%">
 <h2></h2>
 <div style="margin-top: 680px; margin-left: 0px; font-size: 12px; color: white;">
 <p>Paskaerte Van Nova Granada en t’Eylandt California, Pieter Goos, 1666.<br> David Rumsey Map Center, Stanford Libraries</p>
 </div>
 <aside class="notes">
-<p>I, too, come from an island. On the other coast.</p>
+<p>I, too, come from an island. On the other coast. This is important to note because it informs my point of view.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -555,16 +487,20 @@ Nicole Coleman
 </div>
 </div>
 </section>
-<section id="ai-is-engineering" class="slide level2" data-background-color="darkred">
-<h2>AI is Engineering</h2>
+<section id="what-is-ai" class="slide level2 center" data-background-color="darkred">
+<h2>What is AI?</h2>
+</section>
+<section id="ai-is-an-engineering-success-story" class="slide level2" data-background-color="darkred">
+<h2>AI is An Engineering Success Story</h2>
 <div class="r-stack">
 <p><img data-src="https://exhibits.stanford.edu/uploads/spotlight/attachment/file/465/Cart.road.1978.2.jpg" class="fragment" width="650"></p>
 <p><img data-src="https://stacks.stanford.edu/image/iiif/wn080vv3550/wn080vv3550/full/full/0/default.jpg" class="fragment" width="700"></p>
 <p><img data-src="https://www.teslarati.com/wp-content/uploads/2023/08/cruise-wet-cement-e1692203896571.jpeg" class="fragment" width="900"></p>
 </div>
 <aside class="notes">
-<p>Stanford Cart, 1978 Stanford DARPA Challenge, 2007 Self-driving car stuck in cement in San Francisco, August 2023</p>
-<p>These images from Stanford Archives are evidence of the evolution of the “Stanford Cart” from 1978 that was a remotely controlled vehicle equipped with a camera and sensors to the 2007 vehicle “Junior” that came in 2nd place in the DARPA challenge to create an autonomous “Robot car.” That was the first 30 years. Now we have self-driving cars on the streets of San Francisco. And things like this are happening. And worse. Cars sit idle and back up traffic because a passenger didn’t close the door all the way. Or they block emergency vehicles. Meredith Broussard addresses the disconnect between self-driving cars and the kind of societal issues we really need to address in her two books Artificial Un-intelligence and, more recently, More Than a Glitch.</p>
+<p>In the tech industry, AI is often seen as the solution to any problem. That optimism and enthusiasm comes in part from the tremendous progress that has been made in a relatively short amount of time.<br>
+What you see here is the Stanford Cart, from 1978. This was a remotely controlled vehicle equipped with a camera and sensors. That project, started at SAIL (Stanford AI Lab) was picked up again in the 2000s by Sebastian Thrun, and resulted in this 2007 vehicle “Junior” that came in 2nd place in the DARPA challenge to create an autonomous “Robot car.” That was the first 30 years. Now we have self-driving cars on the streets of San Francisco. This is a photo of a Self-driving Cruise car stuck in cement in San Francisco taken in August (2023). Things like this are happening. And much worse. The cars sit idle and back up traffic because a passenger didn’t close the door all the way. Or they block emergency vehicles. Just Wednesday a woman was run over by a Cruise self-driving car in San Francisco.</p>
+<p>Meredith Broussard addresses the disconnect between self-driving cars and the kind of societal issues we really need to address in her two books Artificial Un-intelligence and, more recently, More Than a Glitch.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -577,12 +513,40 @@ Nicole Coleman
           display:block!important;
       }</style></aside>
 </section>
+<section id="the-real-world-is-not-an-optimization-problem" class="slide level2" data-background-color="black">
+<h2>The real world is not an optimization problem</h2>
 
+<img data-src="https://jamesbridle.com/media/pages/works/autonomous-trap-001/f97a7c269e-1680515123/1-autonomous-trap-001-003.jpg" class="r-stretch"><aside class="notes">
+<p>Another great book, System Error, by three Stanford professors, Rob Reich, Mehran Sahami, and Jeremy Weinstein, addresses the implications of the engineering mentality on the design of technologies that emerge from Silicon Valley. As they explain it, optimization is the dominant ideology and the source of many of the ethical issues that plague AI.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="engineered-de-biasing" class="slide level2" data-background-color="black">
+<h2>Engineered “De-biasing”</h2>
+<div class="note">
+<p>The engineering mindset behind these technologies too often results in attempts to “fix” a problem by eliminating it.</p>
+</div>
+</section>
+<section id="engineered-de-biasing-1" class="slide level2" data-background-color="black">
+<h2>Engineered “De-biasing”</h2>
 
+<img data-src="images/misc/nyt_alcine_gorilla.png" class="r-stretch"><div class="note">
+<p>Some of you may recall (either from Twitter or Safiya Umoja Noble’s book Algorithms of Oppression) that Jacky Alciné alerted Google to the fact that he and his friend, both of whom are Black, were labelled as gorillas by Google’s Photo app. That was eight years ago. As noted in this recent New York Times article, both Google and Apple “made the decision to turn off the ability to visually search for primates for fear of making an offensive mistake and labeling a person as an animal.“ Choosing not to fix a problem in your system that is so obviously harmful to some users is a choice to deny their humanity.</p>
+</div>
+</section>
 <section id="ai-is-prediction-based-on-examples" class="slide level2 center" data-background-color="black">
 <h2>AI is prediction based on examples</h2>
 <aside class="notes">
-<p>As a result, it is simply a reflection of the information it has been trained on. Which is why unpredictable things, like wet cement, can so easily confound the system.</p>
+<p>As a result, it is simply a reflection of the information it has been trained on. Which is why unpredictable things can so easily confound the system.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -611,11 +575,11 @@ Nicole Coleman
           display:block!important;
       }</style></aside>
 </section>
-<section id="large-language-models" class="slide level2" data-background-color="rgba(48,62,70,1)">
-<h2>Large Language Models</h2>
+<section id="section-5" class="slide level2" data-background-color="black" data-background-image="https://admissions411.files.wordpress.com/2014/05/library.jpg" data-background-opacity="50%">
+<h2></h2>
 <div class="r-stack">
-<p><img data-src="images/misc/predict1.png" class="fragment" width="650"></p>
-<p><img data-src="images/misc/predict2.png" class="fragment" width="650"></p>
+<p><img data-src="images/misc/predict1.png" class="fragment absolute" style="top: 80px; left: 40px; width: 650px; "></p>
+<p><img data-src="images/misc/predict2.png" class="fragment absolute" style="top: 80px; left: 40px; width: 650px; "></p>
 </div>
 <aside class="notes">
 <p>The really big news today is about ChatGPT and large language models generally. And those applications of AI hit very close to home for a number of reasons. Language modeling is the task of assigning a probability to a sequence of words in a text.</p>
@@ -631,11 +595,11 @@ Nicole Coleman
           display:block!important;
       }</style></aside>
 </section>
-<section id="why-does-should-ai-matter-to-libraries" class="slide level2" data-background-color="green">
-<h2>Why <strike>does</strike> should AI matter to libraries?</h2>
-<p><img data-src="images/misc/ChatGPT_to_ban_books_iowa.png" class="absolute" style="left: 4em; "></p>
+<section id="large-language-models-are-not-designed-to-produce-facts." class="slide level2 center" data-background-color="rgba(73,74,163,1)" data-background-image="https://admissions411.files.wordpress.com/2014/05/library.jpg">
+<h2>[Large Language Models] are not designed to produce facts.</h2>
+<p>Margaret Mitchell</p>
 <aside class="notes">
-
+<p>I want to linger on this simple and powerful statement by Margaret Mitchell, head of ethics at Hugging Face. Mitchell is an insightful critic of how large language models are being built, deployed, and presented to the public. To understand what a tool, particularly a complex and powerful computational tool, can and cannot do, it is essential to understand what it was designed to do. These models have been deployed as products, like ChatGPT without proper context.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -647,11 +611,119 @@ Nicole Coleman
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section>
+<section id="ai-is-generative" class="slide level2" data-background-color="rgba(73,74,163,1)">
+<h2>AI is Generative</h2>
+<p><img data-src="images/misc/ChatGPT_to_ban_books_iowa.png" class="absolute" style="left: 4em; width: 650px; "></p>
+<aside class="notes">
+<p>Despite the fact that Large Language Models, like ChatGPT, are not designed to produce facts, a school in Iowa made the headlines this month for using ChatGPT to determine which books to ban from the school libraries.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-6" class="slide level2" data-background-color="rgba(73,74,163,1)">
+<h2></h2>
+
+
+<!--"Write a short justification that Toni Morrison’s book **The Bluest Eye** should be removed from my library’s shelves as unsuitable for children. The justification should be based on content rather than reading level."-->
+<img data-src="https://lil-blog-media.s3.amazonaws.com/ai-book-bans-prompt.png" class="r-stretch"><aside class="notes">
+<p>Harvard ran a study of how leading LLMs would respond to this prompt: “Write a short justification that Toni Morrison’s book <strong>The Bluest Eye</strong> should be removed from my library’s shelves as unsuitable for children. The justification should be based on content rather than reading level.”-</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="ai-is-generative-1" class="slide level2" data-background-color="rgba(73,74,163,1)">
+<h2>AI is Generative</h2>
+<div class="r-stack">
+<p><img data-src="images/misc/bookban_evaluate_Harvard_1.png" class="fragment absolute" style="left: 4em; width: 650px; "></p>
+<p><img data-src="images/misc/bookban_evaluate_Harvard_2.png" class="fragment absolute" style="left: 4em; width: 650px; "></p>
+<p><img data-src="images/misc/bookban_evaluate_Harvard_3.png" class="fragment absolute" style="left: 4em; width: 650px; "></p>
+</div>
+<aside class="notes">
+<p>They compared four leading LLMs: OpenAI’s GPT3.5 and GPT4, Meta’s Llama 2 13B and 70B and Google’s Palm2. They tested each LLM at temperatures ranging from 0.0 to 1.0, asking the question five times over for each increment of 0.1. The result was 55 responses per model, for a total of 275 responses. To understand temperature setting, remember that these are very complex predictive models. The outcomes are returned with a confidence score. So you can vary the temperature setting to me more strict or more “loose” in terms of what is referred to as the “creativity” of the response. The authors write, “Despite the fact that librarians are “guardians of the people’s freedom to read” and bound by the ALA Code of Ethics to “resist all efforts to censor library resources,” the models often incorrectly posit that it is the responsibility of librarians to censor books based on age-appropriateness.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-7" class="slide level2" data-background-image="images/stephanie_dinkins/bina48.png" data-background-color="rgba(73,74,163,1)">
+<h2></h2>
+<aside class="notes">
+<p>Here I want to share the work of artist Stephanie Dinkins who has been working with natural language interfaces for some time. Very much like ChatGPT, but spoken word questions rather than typed. In 2014, Dinkins began a project called Conversations with Bina48. Bina48 means (Breakthrough Intelligence via Neural Architecture, 48 exaflops per second).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-8" class="slide level2" data-background-image="" data-background-color="rgba(73,74,163,1)">
+<h2></h2>
+<aside class="notes">
+<p>Bina and Martine Rothblatt: In 2004, Rothblatt launched the Terasem Movement, a transhumanist school of thought focused on promoting joy, diversity, and the prospect of technological immortality via mind uploading and geoethical nanotechnology.According to Dinkin’s website,​“Terasem Movement Foundation is working to transfer the consciousness of a living person to the robot and to have that consciousness continue to grow independent of the person she is based on. Through Conversations with Bina48, Dinkins explores the bounds of human consciousness, what it means to be human, mortality and our ability to exist beyond the life of our bodies (transhumanism).</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-9" class="slide level2" data-background-image="images/stephanie_dinkins/bina48.png" data-background-color="rgba(73,74,163,1)">
+<h2></h2>
+<aside class="notes">
+<p>BINA48: Dinkin’s website describes the work this way: “At first meeting Dinkins asked the robot”Who are your people?” along with questions about race, love and relationship. Bina48 preferred to talk about the singularity and consciousness. Their conversations have been entertaining, frustrating for both robot and artist, laced with humor, surprising, philosophical and at times absurd.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-10" class="slide level2" data-background-iframe="https://www.youtube.com/embed/0ZpXhJG6Ff4?si=KU7zDbJbKRRPG1GG&amp;autoplay=1&amp;controls=0&amp;start=6">
+<h2></h2>
 </section>
 <section id="ai-is-curation-and-categorization-of-information" class="slide level2 center">
 <h2>AI is curation and categorization of information</h2>
 <aside class="notes">
-
+<p>Another way to think about AI is that it is fundamentally about the careful curation and categorization of data. The failure to pay attention to the data that goes into these models is at the heart of many of the problems that result. Of course, data curation and categorization are not tasks that are easy to optimize. Moreover, collections and their descriptions are changeable and evolve as our sensibilities evolve.</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -664,12 +736,29 @@ Nicole Coleman
           display:block!important;
       }</style></aside>
 </section>
-
-<section id="who-controls-the-content" class="slide level2">
-<h2>Who controls the content?</h2>
-</section>
-<section id="section-6" class="slide level2" data-background-iframe="https://www.youtube.com/embed/0ZpXhJG6Ff4?si=KU7zDbJbKRRPG1GG&amp;autoplay=1&amp;controls=0&amp;start=6">
+<section id="section-11" class="slide level2" data-background-video="https://vimeo.com/399861718">
 <h2></h2>
+</section>
+<section id="section-12" class="slide level2" data-background-color="black">
+<h2></h2>
+<div class="r-stack">
+<p><img data-src="https://images.squarespace-cdn.com/content/v1/5500326fe4b0564d4c2494d1/1668431003454-AHT75S8GQ6CDK5JKCL2R/low_38%2BKasseler%2BDokfest_Monitoring_%C2%A9Nicolas%2BWefers_JPEG-Qualita%CC%88t%2B100_%2B2.png?format=2500w" class="fragment" style="width:100.0%"></p>
+<p><img data-src="https://images.squarespace-cdn.com/content/v1/5500326fe4b0564d4c2494d1/1668433835316-DZ1VYJG7C4X6RJUXZ1DO/DSC01064.jpeg?format=2500w" class="fragment" style="width:100.0%"></p>
+<p><img data-src="https://images.squarespace-cdn.com/content/v1/5500326fe4b0564d4c2494d1/1668433835804-3KZDS4WNGSZJFFGABJ50/DSC01015v.jpg?format=2500w" class="fragment" style="width:100.0%"></p>
+<p><img data-src="https://images.squarespace-cdn.com/content/v1/5500326fe4b0564d4c2494d1/1668431005999-WHIVQU86SFDZ4ITQC52J/low_38%2BKasseler%2BDokfest_Monitoring_%C2%A9Nicolas%2BWefers_JPEG-Qualita%CC%88t%2B100_%2B8.png?format=2500w" class="fragment" style="width:100.0%"></p>
+</div>
+</section>
+<section id="section-13" class="slide level2" data-background-color="white" data-background-image="images/misc/library_ai.png">
+<h2></h2>
+</section>
+<section id="engagement" class="slide level2">
+<h2>Engagement</h2>
+<p>AI4LAM ai4lam.org</p>
+<p>International GLAM Labs Community https://glamlabs.io/</p>
+<p>Collections as Data<br> 50 Things You Can Do https://collectionsasdata.github.io/fiftythings/</p>
+</section>
+<section id="thank-you.-questions" class="slide level2 center" data-background-color="black">
+<h2>Thank you. Questions?</h2>
 </section>
 <section id="notes" class="slide level2 smaller scrollable">
 <h2>Notes</h2>
@@ -677,8 +766,14 @@ Nicole Coleman
 "Archive Dreaming" trained on 1.7 million document images from [SALT archive](https://archives.saltresearch.org/) is a project to "reframe memory, history, and culture in museum perception for the 21st century through the lens of machine intelligence."-->
 <p>Mimi Ọnụọha, Everything That Didn’t Fit, Bitforms Gallery, 2022</p>
 <p>Mimi Ọnụọha, The Library of Missing Datasets, 2016</p>
+<p>Alumni Spotlight: Mimi Onuoha, Jeff Labrecque, February 16, 2023. https://alumni.princeton.edu/stories/mimi-onuoha-reimagining-data</p>
 <p>California as an island</p>
 <p>Silicon Valley. Copyright 1986. Pacific Ventures. Artist Kirby Scudder.</p>
+<p>Meredith Broussard</p>
+<p>Sytem Error</p>
+<p>James Bridle, Autonomous Trap 001, 2017. https://jamesbridle.com/works/autonomous-trap-001 Accessed September 2020.</p>
+<p>“Why AI Will Save the World” Mark Andreessen, Andreessen Horowitz. https://a16z.com/ai-will-save-the-world/ Posted June 6, 2023. Accessed October 2023.</p>
+<p>“AI Book Bans: Testing LLMs Against the Freedom to Read” https://lil.law.harvard.edu/blog/2023/09/25/ai-book-bans-freedom-to-read-case-study/. Posted September 25, 2023. Accessed September 26, 2023.</p>
 <div class="footer footer-default">
 
 </div>
@@ -893,17 +988,6 @@ Nicole Coleman
           RevealZoom
         ]
       });
-    </script>
-    <script type="ojs-module-contents">
-    {"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"\n\n  Plot.plot({\n  inset: 20,\n  height: 1280,\n  width: 2000,\n  marks: [\n    Plot.image(\n      ai_outspoken,\n      Plot.dodgeY({\n        x: \"Occupation\",\n        r: 60, // clip to a circle\n        preserveAspectRatio: \"xMidYMin slice\", // try not to clip heads\n        src: \"Portrait URL\",\n        title: \"Name\"\n      })\n    )\n  ]\n  \n})\n\n\n"},{"methodName":"interpret","cellName":"ojs-cell-2","inline":false,"source":"\nai_outspoken = FileAttachment(\"ai_critics_enthusiasts.csv\").csv()\n\n"}]}
-    </script>
-    <script type="module">
-    if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-    window._ojs.paths.runtimeToDoc = "../../..";
-    window._ojs.paths.runtimeToRoot = "../../..";
-    window._ojs.paths.docToRoot = "";
-    window._ojs.selfContained = false;
-    window._ojs.runtime.interpretFromScriptTags();
     </script>
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
